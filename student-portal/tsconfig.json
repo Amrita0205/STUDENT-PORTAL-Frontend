@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "types": ["vite/client", "vue","long","node-fetch"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  }
+}
