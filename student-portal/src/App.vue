@@ -1,23 +1,22 @@
 <!-- // 'npm run dev will' run this file
  -->
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import MyFirstComponent from './components/MyFirstComponent.vue'
-import SecondComponent from './components/second.vue'
+// import { RouterLink, RouterView } from 'vue-router'
+// import MyFirstComponent from './components/MyFirstComponent.vue'
+
+import './assets/base.css'
+import './assets/main.css'
 </script>
 
 <template>
   <div>
-  
-
-  <!-- <RouterView /> -->
-  <MyFirstComponent />
-  <SecondComponent />
+    <router-view />
+    <!-- Without this you will not be able to do routing -->
   </div>
 </template>
 
 <style scoped>
-body{
+body {
   margin: 0;
   padding: 0;
 }
